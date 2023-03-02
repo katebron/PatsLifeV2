@@ -8,12 +8,46 @@
 	<meta name="author" content="Gilbert Bronstad">
 	<meta name="changed" content="20230127">                         <!--[{ change date }] -->
      <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel =stylesheet type="text/css" href="PatsLife/css/Pat-sLife.css">
-	<link rel =stylesheet type="text/css" href="PatsLife/css/w3css.css">
+	<link rel =stylesheet type="text/css" href="assets/css/Pat-sLife.css">
+	<link rel =stylesheet type="text/css" href="assets/css/w3css.css">
 	<link rel="shortcut icon" href="../weblog.ico">  
 </head>
-<body>
+<body style="width: 100%">
 {% include navigation.html %}
+<div class="content" style="padding: 2em">
 {{ content }}
+{% assign image_level = page.subject %}
+{% for category in site.data.images %}
+  {% if image_level == category[0] %}
+    {% for types in category %}
+	
+      {% for subcategory in types %}
+	  <h2 id={{ subcategory.type }}>{{subcategory.type}}</h2>
+	  <p>{{ subcategory.type_description }}</p>
+	  <div class="subcategory-gallery" style="display: flex; flex-direction: row; width: 100%; justify-content: space-around;">
+	   
+        {% for file in subcategory.files %}
+		  <div class="image-block" style="width: 30%;">
+			<figure>
+		    <img src="{{ file.url }}" alt="{{ file.alt }}" style="max-width: 100%;" />
+		   <figcaption>{{file.figcaption}}</figcaption> 
+		   </figure>
+		    <p>{{file.description}}</p>
+		  </div>	 
+        {% endfor %}
+	</div>
+      {% endfor %}
+
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+
+
+</div>
+<footer>End of {{ page.subject }}</footer>
 </body>
 </html> 
+
+
+		  	

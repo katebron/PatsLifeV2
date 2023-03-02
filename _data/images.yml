@@ -1,0 +1,55 @@
+childhood_images:
+- type: Preschool
+  type_description: "Patricia was born to Jeff Augustus and Clara (Gray ) Bird on January 30, 1941, in Fort Worth, TX. The first house in Pat's life was on Bluff Street. Close enough to downtown Fort Worth that her Mother could walk to Everybody's Department Store."
+  files:
+  - alt: 'infant Pat Bird'
+    url: '../assets/images/childhood/E-PatBirdBaby.jpeg'
+    figcaption: 'Fig.1 - Infant Patricia M Bird, About 1 year old'
+    description: "Already theres that Patricia's smile developing."
+- type: Elementary School  
+  type_description: "Pat and family lived on Bluff Street, overlooking the Trinity River. World War Two began less than a year after Pat's birth. Sometime later, her Father Jeff Augustus Bird decided to move the family to a farm near Hope Arkansas. Jeff sold out in 1946 or 1947 and moved his family back to Fort Worth where he began a plumbing shop.
+   Pat's first school must have been Charles Nash Elementary at 401 Samuels Ave, just a few blocks away. The school was built in 1927 and remains in use."  
+  files:
+  - alt: 'First School picture for Pat Bird'
+    url: '../assets/images/childhood/E-PatBird1947.jpeg'
+    figcaption: 'Fig.2 - First grader, Patricia M Bird.'
+    description: 'Her look suggests some of the strangeness of this new world of school, a world away from Father, Mother, sisters and brothers.'
+  - alt: 'First School picture for Pat Bird'
+    url: '../assets/images/childhood/E-PatSchool_1948_49.jpeg'
+    figcaption: 'Fig.3 - Second grader, Patricia M Bird.'
+    description: "Pat's second grade picture shows that she is much more comfortable with her school surroundings. She has learned the tremendous utility of a smile."
+  - alt: 'First School picture for Pat Bird'
+    url: '../assets/images/childhood/E-PatAndBettyEaster.jpeg'
+    figcaption: "Fig.4 - It's Easter and Pat and younger sister Bette wear easter dresses"
+    description: "Pat's and Betty have had a successful egg hunt. Likely these were real eggs, died and decorated by Mother Clara or an older sister.."
+  - alt: 'First School picture for Pat Bird'
+    url: '../assets/images/childhood//E-AnnJohnsonPatBirdBettyBird.jpeg'
+    figcaption: "Ann Johnson Pat Bird Betty Birdd"
+    description: "Bird family has moved to 3430 Meadow oaks; a Haltom City water tower stands behind the three girls."  
+- type: High school years
+  type_description: "Most of the younger Birds went to Birdville High School, home of the Birdville Buffaloes. Their house on Meadow Oaks afforded an easy walk to the high school (renamed Haltom High in 1960) on Carson Street."
+  files: 
+  - alt: 'Pat Bird'
+    url: '../assets/images/childhood/E-PatAsKid1954.jpeg'
+    figcaption: "Fig.6 - Patricia M Bird."
+    description: 'Location unknown'
+  - alt: 'Second School picture for Pat Bird'
+    url: '../assets/images/childhood/E-PatBirdSchool1956.jpeg'
+    figcaption: "Fig.7 - Patricia M Bird."
+    description: 'Pats sophmore picture.'
+  - alt: 'Pat hanging from rafters'
+    url: '../assets/images/childhood/E-PatHangingFromCeiling1958.jpeg'
+    figcaption: "Fig.8 - Tomboy Patricia M Bird"
+    description: "Pat is inclined to be active. She ran in city sponsored races in Karori, Portland and Austin. She took regular walks with friends and children even at the onset of her illness"
+  - alt: 'Second School picture for Pat Bird'
+    url: '../assets/images/childhood/E-PatSchoolPhoto.jpeg'
+    figcaption: "Fig.9 - Senior year picture, Patricia M Bird."
+    description: "Pat's senior year picture shows her familiar adult features."  
+family_images:
+- type: Parents, Jeff and Clara
+  files:  
+  - alt: 'Jeff Augustus Bird and Clara Myrtlwe Gray in a 1917 photo'
+    url: '..assets/images/family/JeffClara/1917WeddingPortraitJeffAndClara.jpg'
+    figcaption: "Fig. 1 - Wedding picture Jeff and Clara Bird, 1917"
+    description: "Jeff in his U S Navy uniform. There is a lot of love, care, and heartbreak in the future of this couople."  
+- type: Bird Family Gathering    
