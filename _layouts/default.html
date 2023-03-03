@@ -22,17 +22,20 @@
     {% for types in category %}
 	
       {% for subcategory in types %}
-	  <h2 id={{ subcategory.type }}>{{subcategory.type}}</h2>
+	  <h2 id={{ subcategory.type }} style="text-align: center">{{subcategory.type}}</h2>
 	  <p>{{ subcategory.type_description }}</p>
-	  <div class="subcategory-gallery" style="display: flex; flex-direction: row; width: 100%; justify-content: space-around;">
+	  <div class="subcategory-gallery" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%; justify-content: space-around;">
 	   
         {% for file in subcategory.files %}
-		  <div class="image-block" style="width: 30%;">
+		  <div class="image-block" style="max-width: 40%; margin: 0 0.25em 1em 0">
 			<figure>
-		    <img src="{{ file.url }}" alt="{{ file.alt }}" style="max-width: 100%;" />
+			<a href="{{ file.url }}">
+		    <img src="{{ file.url }}" alt="{{ file.alt }}" style="width: 100%; margin-left: auto; margin-right: auto;"/>
+		   </a>
 		   <figcaption>{{file.figcaption}}</figcaption> 
+		 
 		   </figure>
-		    <p>{{file.description}}</p>
+		    <p style="padding: 0 2em;">{{file.description}}</p>
 		  </div>	 
         {% endfor %}
 	</div>

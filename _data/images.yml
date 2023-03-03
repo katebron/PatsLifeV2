@@ -48,8 +48,25 @@ childhood_images:
 family_images:
 - type: Parents, Jeff and Clara
   files:  
-  - alt: 'Jeff Augustus Bird and Clara Myrtlwe Gray in a 1917 photo'
-    url: '..assets/images/family/JeffClara/1917WeddingPortraitJeffAndClara.jpg'
+  - alt: "Jeff Augustus Bird and Clara Myrtlwe Gray in a 1917 photo"
+    url: '../assets/images/family/JeffClara/try2WeddingPortraitJeffClara.jpg'
     figcaption: "Fig. 1 - Wedding picture Jeff and Clara Bird, 1917"
     description: "Jeff in his U S Navy uniform. There is a lot of love, care, and heartbreak in the future of this couople."  
-- type: Bird Family Gathering    
+- type: Bird Family Gathering
+  files:
+  - alt: 'All Birds at Christmas 1953'
+    url: '../assets/images/family/JeffClara/christmas_1953_everyone_500x361.jpg'
+    figcaption: 'Fig. 2 Everyone at Christmas 1953'
+    description: "Daughters and daughters-in-law, sons and sons-in-law, and grandchildren in arm and on the floor.This must have been a sweet moment for Jeff and Clara; Pat claimed the clock on the mantle"
+  - alt: "All the Bird Boys"
+    url: '../assets/images/family/JeffClara/christmas_1953_all_the_boys_500x378.jpg' 
+    figcaption: "Fig. 3 - all the sons"
+    description: "Sport injuries kept David out of the military.All the rest served in in one of the braches; some in two; Buddy came in uniform; Albert's right arm is still in recovery."
+  - alt: 'Clara with daughters 1975'
+    url: '../assets/images/family/JeffClara/597Sisters6_75.jpg'
+    figcaption: 'Fig. 4 Clara and her 8 daughters.'
+    description: "In June of 1975 the Bird family held a reunion at an airport North of Fort Worth. Some came later and missed the group pictures"
+  - alt: 'Claras family at 1975 Group Pic'    
+    url: '../assets/images/family/JeffClara/JeffAndClaraBirdsFamily6_75_602.jpg'
+    figcaption: "Fig. 5 - Jeff and Clara's family, circa 1975."
+    description: "Donald was there, the photographer almost missed him entirely. Move your cursor over a person for identity."
